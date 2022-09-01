@@ -1,0 +1,28 @@
+2022/08/31-20:08:54.980 5428 Reusing MANIFEST C:\Users\Reinaldo\Documents\chat_bot_translate\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/31-20:08:54.980 5428 Recovering log #53
+2022/08/31-20:08:55.087 5428 Reusing old log C:\Users\Reinaldo\Documents\chat_bot_translate\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000053.log 
+2022/08/31-20:09:07.564 5484 Level-0 table #59: started
+2022/08/31-20:09:07.654 5484 Level-0 table #59: 1290693 bytes OK
+2022/08/31-20:09:07.656 5484 Delete type=0 #53
+2022/08/31-20:09:08.508 d80 Compacting 1@1 + 2@2 files
+2022/08/31-20:09:08.790 d80 Generated table #60@1: 30465 keys, 2253676 bytes
+2022/08/31-20:09:09.054 d80 Generated table #61@1: 49160 keys, 2248384 bytes
+2022/08/31-20:09:09.064 d80 Generated table #62@1: 6555 keys, 141506 bytes
+2022/08/31-20:09:09.064 d80 Compacted 1@1 + 2@2 files => 4643566 bytes
+2022/08/31-20:09:09.064 d80 compacted to: files[ 0 0 3 0 0 0 0 ]
+2022/08/31-20:09:09.065 d80 Delete type=2 #55
+2022/08/31-20:09:09.065 d80 Delete type=2 #56
+2022/08/31-20:09:09.065 d80 Delete type=2 #59
+2022/08/31-21:10:57.186 d80 Level-0 table #64: started
+2022/08/31-21:10:57.558 d80 Level-0 table #64: 1315493 bytes OK
+2022/08/31-21:10:57.571 d80 Delete type=0 #58
+2022/08/31-21:12:43.456 d80 Compacting 1@1 + 3@2 files
+2022/08/31-21:12:44.075 d80 Generated table #65@1: 30127 keys, 2257280 bytes
+2022/08/31-21:12:44.256 d80 Generated table #66@1: 44885 keys, 2247783 bytes
+2022/08/31-21:12:44.307 d80 Generated table #67@1: 14609 keys, 315871 bytes
+2022/08/31-21:12:44.307 d80 Compacted 1@1 + 3@2 files => 4820934 bytes
+2022/08/31-21:12:44.308 d80 compacted to: files[ 0 0 3 0 0 0 0 ]
+2022/08/31-21:12:44.309 d80 Delete type=2 #60
+2022/08/31-21:12:44.310 d80 Delete type=2 #61
+2022/08/31-21:12:44.310 d80 Delete type=2 #62
+2022/08/31-21:12:44.310 d80 Delete type=2 #64

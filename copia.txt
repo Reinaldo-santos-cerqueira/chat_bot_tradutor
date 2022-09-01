@@ -1,0 +1,30 @@
+const axios = require('axios');
+const venom = require('venom-bot')
+
+venom.create().then((client) =>{
+
+  start(client);
+
+})
+
+async function start(client) {
+  client.onMessage((message) => {
+
+    let sliceMessage = message.body.slice(0, 8);
+  
+    if ( sliceMessage === 'Traduzir' && message.isGroupMsg === false) {
+
+      let translateText = message.body.slice(8)
+      
+      axios({
+          method: 'GET',
+          url:`https://api.mymemory.translated.net/get?q=${translateText}!&langpair=pt-br|en`
+      })
+      .then( async (response) => {
+
+        await client.sendText(message.from ,response.data.responseData.translatedText);
+
+      })
+    }
+  });
+}
